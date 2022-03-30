@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap');
+
+/*font-family: 'Cinzel', serif;
+font-family: 'Poppins', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*================================================================
+HEADER STYLES
+================================================================*/
+
+h1 {
+    font-family: 'Cinzel', serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color:#999;
+}
+
+header section {
+    background-image: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+header section p {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    color: white;
+    margin: 0px 200px;
+    text-align: center;
+}
+
+/* =================================================================
+MAIN STYLES
+================================================================ */
+
+h2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin: 40px 0px;
+    color: #333;
+}
+
+main p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 50px 40px 50px;
+    color: #333;
+}
+
+main div {
+    margin: 0px 50px 40px 50px;
+    text-align: center;
+}
+
+main div img {
+    width: 240px;
+    margin: 0px 15px;
+}
+
+main ul {
+    margin: 0px 60px;
+    list-style: none;
+}
+
+main ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 2;
+}
+
+main ul li a {
+    color: #333;
+    text-decoration: none;
+}
+main ul li:nth-child(1)::after, main ul li:nth-child(2)::after, main ul li:nth-child(3)::after {
+    content: "SOLD OUT";
+    color: red;
+    margin-left: 10px;
+}
+
+main ul li:nth-child(4)::after {
+    content: "ONLY 4 SPOTS AVAILABLE";
+    color: red;
+    margin-left: 10px;
+}
+
+main ul li:nth-child(5)::after, main ul li:nth-child(6)::after {
+    content: "AVAILABLE";
+    color: green;
+    margin-left: 10px;
+}
+
+/* ==============================
+FOOTER STYLES
+============================== */
+
+footer {
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+footer h3 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+footer section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer section img {
+    width: 40px;
+    margin: 0 5px;
+}
