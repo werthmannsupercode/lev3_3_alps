@@ -29,7 +29,7 @@ header section {
 
 header section p {
     font-family: 'Cinzel', serif;
-    font-size: 40px;
+    font-size: 70px;
     color: white;
     margin: 0px 200px;
     text-align: center;
@@ -39,6 +39,9 @@ header section p {
 MAIN STYLES
 ================================================================ */
 
+main {
+    margin: 0 110px;
+}
 h2 {
     text-align: center;
     font-family: 'Cinzel', serif;
@@ -49,49 +52,49 @@ h2 {
 main p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 12px;
-    margin: 0 50px 40px 50px;
+    font-size: 14px;
+    margin-bottom: 40px;
     color: #333;
 }
 
 main div {
-    margin: 0px 50px 40px 50px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
 main div img {
-    width: 240px;
+    width: 300px;
     margin: 0px 15px;
 }
 
-main ul {
+main section {
     margin: 0px 60px;
     list-style: none;
 }
 
-main ul li {
+main section p {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    line-height: 2;
+    font-size: 14px;
+    text-align: left;
 }
 
-main ul li a {
+main section p a {
     color: #333;
     text-decoration: none;
 }
-main ul li:nth-child(1)::after, main ul li:nth-child(2)::after, main ul li:nth-child(3)::after {
+main section p:nth-child(1)::after, main section p:nth-child(2)::after, main section p:nth-child(3)::after {
     content: "SOLD OUT";
     color: red;
     margin-left: 10px;
 }
 
-main ul li:nth-child(4)::after {
+main section p:nth-child(4)::after {
     content: "ONLY 4 SPOTS AVAILABLE";
     color: red;
     margin-left: 10px;
 }
 
-main ul li:nth-child(5)::after, main ul li:nth-child(6)::after {
+main section p:nth-child(5)::after, main section p:nth-child(6)::after {
     content: "AVAILABLE";
     color: green;
     margin-left: 10px;
